@@ -1,0 +1,105 @@
+body {
+    border: 4px solid black;
+    background-color: gray;
+    height: 390px;
+    margin: 0;
+    text-align: center;
+    }
+    
+    #box1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 3%;
+        border: 2px solid black; 
+        box-sizing: border-box;
+        padding: 50px;
+        min-height: 50px; 
+        border-radius: 25px; 
+        background-color: #ffffff; 
+        align-items: center;
+        margin-left: 25%;
+        
+    }
+    #nombreCancion{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #textSong{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    }
+    
+    #playlistBox{
+    display: flexbox;
+    border: 1px solid black;
+    text-align: center;
+    width: 20%;
+    margin-top: 0%;
+    height: 50px;
+    text-decoration: none;
+    background-color: greenyellow;
+    }
+    #playlistBox:hover{
+        box-shadow: green;
+        color: #fff;
+    }
+    
+    #btPrev{
+    display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor:pointer;
+        border: 2px solid #34db34;
+        color: black;
+        background-color: #ffffff;
+        border-radius: 6px;
+    
+    }
+    #btPrev:hover {
+        background-color: #34db34;
+        color: #fff;
+        box-shadow: 0 0 20px #34db34; 
+    }
+    #btPlay{
+        display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor:pointer;
+            border: 2px solid #34db34;
+            color: black;
+            background-color: #ffffff;
+            border-radius: 6px;
+        
+        }
+    #btPlay:hover {
+        background-color: #34db34;
+        color: #fff;
+        box-shadow: 0 0 20px #34db34; 
+        }
+    #btNext{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor:pointer;
+        border: 2px solid #34db34;
+        color: black;
+        background-color: #ffffff;
+        border-radius: 6px;
+            
+        }
+    #btNext:hover {
+        background-color: #34db34;
+        color: #fff;
+        box-shadow: 0 0 20px #34db34; 
+            }
